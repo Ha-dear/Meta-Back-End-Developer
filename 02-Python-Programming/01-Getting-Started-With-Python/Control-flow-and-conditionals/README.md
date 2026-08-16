@@ -1,20 +1,37 @@
+---
 
-Introduction
-In this exercise, you will practice control flow with loops to solve problems. You will be given a list of integers and you will have to add some code to find a specific number in a list and return it. 
+## 🔁 Exercise 3: Control Flow with Loops
 
-Instructions
-1.   Under the num_list create a new for loop and print out each value on the list in sequential order.
+### 📌 Overview
+In this exercise, you practice control flow using `for` loops, conditional logic (`if-else`), the `enumerate()` function, loop counters, and the `break` statement to search for specific values in a list of integers.
 
-2.  Inside the for loop, create a condition that will look for all numbers that are greater than 45 and print out only numbers that meet that condition
+---
 
-3.  Change the print statement to “Over 45” and add an else condition with a print statement of “Under 45”.
+### 🎯 Objectives
+* Iterate over a list of integers sequentially using a `for` loop.
+* Apply conditional logic (`if-else`) to filter and print values based on conditions.
+* Leverage `enumerate()` to access both the index and value during iteration.
+* Track iteration counts using a counter variable.
+* Optimize loop execution using the `break` statement upon finding a target value.
 
-4.  Update the for loop to use the enumerate function so you can get and use the index. Alter the condition to look for number 36 and print out the following: ‘Number found at position: ‘, index number
+---
 
-5.  Next, create a new variable called count and assign it a value of 0 and place it outside the for loop.
+### 📝 Step-by-Step Instructions
 
-6.  Inside the for loop increment the counter by 1.
+1. **Basic Iteration:** Create a `for` loop to print each number in `num_list` sequentially.
+2. **Filtering:** Add an `if` condition inside the loop to check for numbers greater than `45` and print only those numbers.
+3. **Branching Logic:** Update the print statement to output `"Over 45"` for numbers greater than 45, and add an `else` branch to print `"Under 45"`.
+4. **Index Tracking:** Update the loop to use `enumerate(num_list)`. Modify the condition to search for the number `36`, printing:  
+   `"Number found at position: <index>"`
+5. **Counter Initialization:** Declare a variable named `count` initialized to `0` outside and above the loop.
+6. **Increment Counter:** Increment `count` by `1` inside the loop on each iteration.
+7. **Display Total Iterations:** Print the final value of `count` outside and after the loop.
+8. **Loop Interruption:** Add a `break` statement immediately after the print statement inside the `if` block (when number `36` is found) to stop further unnecessary iterations.
 
-7.  Add a print statement outside the for loop to print the value of the count variable.
+---
 
-8.  Finally, add a break statement directly after the print statement inside the if condition for finding the number. 
+### 🧠 Key Concepts Covered
+* Control flow with `for` loops and `if-else` branching.
+* Accessing element indices using `enumerate()`.
+* Manual loop counters and iteration tracking.
+* Controlling loop execution flow with `break`.
